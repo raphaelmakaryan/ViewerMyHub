@@ -1,0 +1,67 @@
+/*#region BODY*/
+
+:root {
+    --color_text: 228 228 231;
+    --color_background: rgb(24, 24, 27);
+}
+
+[data-theme="dark"] {
+    --color_text: #000;
+    --color_background: #fff;
+}
+
+body {
+    background-color: var(--color_background) !important;
+    margin: 0;
+    color: rgb(var(--color_text) / 1) !important;
+    padding: 0;
+}
+
+a {
+    color: unset !important;
+    text-decoration: none !important;
+}
+
+svg {
+    fill: rgb(var(--color_text) / 1) !important;
+}
+
+.font12 {
+    font-size: 12px !important;
+}
+
+/*#endregion BODY*/
+
+/*#region THEME*/
+.theme-toggle {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 1000;
+    background: var(--color_background);
+    color: var(--color_text);
+    border: none;
+    border-radius: 50%;
+    padding: 0.75rem;
+    cursor: pointer;
+    backdrop-filter: blur(8px);
+    transition: transform 0.3s ease;
+}
+
+.theme-toggle:hover {
+    transform: scale(1.1);
+}
+
+.dark-icon {
+    display: none;
+}
+
+[data-theme="dark"] .light-icon {
+    display: none;
+}
+
+[data-theme="dark"] .dark-icon {
+    display: inline;
+}
+
+/*#endregion THEME*/

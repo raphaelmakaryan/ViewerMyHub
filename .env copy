@@ -1,0 +1,10 @@
+# This file is used to store environment variables for the script.
+# Make sure to replace the placeholders with your actual values.
+
+# GitHub API token and username
+GITHUB_TOKEN = YOUR_GITHUB_TOKEN
+GITHUB_USERNAME = YOUR_USERNAME
+
+# GitHub API URL for issues
+PAGE=1
+PER_PAGE=50
