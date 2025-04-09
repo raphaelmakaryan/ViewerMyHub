@@ -22,7 +22,7 @@ a {
     text-decoration: none !important;
 }
 
-svg {
+.svgColor {
     fill: rgb(var(--color_text) / 1) !important;
 }
 
