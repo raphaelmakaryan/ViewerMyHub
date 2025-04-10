@@ -3,6 +3,8 @@
 :root {
     --color_text: 228 228 231;
     --color_background: rgb(24, 24, 27);
+    --open: #347D39;
+    --close: #8256D0;
 }
 
 [data-theme="dark"] {
