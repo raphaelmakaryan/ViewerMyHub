@@ -55,16 +55,21 @@
 ---
 <br>
 
-<!-- ![atinux-pull-requests](https://github.com/user-attachments/assets/cfa82cc2-51af-4fd4-9012-1f8517dd370f) -->
-
-
 <!-- ABOUT THE PROJECT -->
 # About The Project
 
+<br>
+
+<div align="center">
+  <img src="./imgs/demo.png" alt="Demo exemple" height="300" >
+</div>
+
+<br>
 ViewerMyHub is a project that allows you to view your recent GitHub pull requests on Open Source projects you contribute to only in PHP!
 
 You too can view your recent GitHub pull requests on the Open Source projects you contribute to using ViewerMyHub!
 
+[Demo here !](https://viewermyhub.raphaelmakaryan.fr/)
 
 ## Built With
 
